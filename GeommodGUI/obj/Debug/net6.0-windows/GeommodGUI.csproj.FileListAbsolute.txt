@@ -1,0 +1,17 @@
+C:\Users\Komló Tibor\Desktop\Projects\GeommodGUI\GeommodGUI\bin\Debug\net6.0-windows\GeommodGUI.exe
+C:\Users\Komló Tibor\Desktop\Projects\GeommodGUI\GeommodGUI\bin\Debug\net6.0-windows\GeommodGUI.deps.json
+C:\Users\Komló Tibor\Desktop\Projects\GeommodGUI\GeommodGUI\bin\Debug\net6.0-windows\GeommodGUI.runtimeconfig.json
+C:\Users\Komló Tibor\Desktop\Projects\GeommodGUI\GeommodGUI\bin\Debug\net6.0-windows\GeommodGUI.dll
+C:\Users\Komló Tibor\Desktop\Projects\GeommodGUI\GeommodGUI\bin\Debug\net6.0-windows\GeommodGUI.pdb
+C:\Users\Komló Tibor\Desktop\Projects\GeommodGUI\GeommodGUI\obj\Debug\net6.0-windows\GeommodGUI.csproj.AssemblyReference.cache
+C:\Users\Komló Tibor\Desktop\Projects\GeommodGUI\GeommodGUI\obj\Debug\net6.0-windows\GeommodGUI.Form1.resources
+C:\Users\Komló Tibor\Desktop\Projects\GeommodGUI\GeommodGUI\obj\Debug\net6.0-windows\GeommodGUI.csproj.GenerateResource.cache
+C:\Users\Komló Tibor\Desktop\Projects\GeommodGUI\GeommodGUI\obj\Debug\net6.0-windows\GeommodGUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Komló Tibor\Desktop\Projects\GeommodGUI\GeommodGUI\obj\Debug\net6.0-windows\GeommodGUI.AssemblyInfoInputs.cache
+C:\Users\Komló Tibor\Desktop\Projects\GeommodGUI\GeommodGUI\obj\Debug\net6.0-windows\GeommodGUI.AssemblyInfo.cs
+C:\Users\Komló Tibor\Desktop\Projects\GeommodGUI\GeommodGUI\obj\Debug\net6.0-windows\GeommodGUI.csproj.CoreCompileInputs.cache
+C:\Users\Komló Tibor\Desktop\Projects\GeommodGUI\GeommodGUI\obj\Debug\net6.0-windows\GeommodGUI.dll
+C:\Users\Komló Tibor\Desktop\Projects\GeommodGUI\GeommodGUI\obj\Debug\net6.0-windows\refint\GeommodGUI.dll
+C:\Users\Komló Tibor\Desktop\Projects\GeommodGUI\GeommodGUI\obj\Debug\net6.0-windows\GeommodGUI.pdb
+C:\Users\Komló Tibor\Desktop\Projects\GeommodGUI\GeommodGUI\obj\Debug\net6.0-windows\GeommodGUI.genruntimeconfig.cache
+C:\Users\Komló Tibor\Desktop\Projects\GeommodGUI\GeommodGUI\obj\Debug\net6.0-windows\ref\GeommodGUI.dll
