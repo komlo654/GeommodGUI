@@ -27,6 +27,9 @@ namespace GeommodGUI
         [DllImport("Surfaces.dll", CallingConvention = CallingConvention.Cdecl)]
         public static extern void HandleSurfaceIdChange(int surface_id);
 
+        [DllImport("Surfaces.dll", CallingConvention = CallingConvention.Cdecl)]
+        public static extern void HandleDensityChange(int density);
+
 
         public Form1()
         {
@@ -96,6 +99,11 @@ namespace GeommodGUI
             {
                 HandleSurfaceIdChange(2);
             }
+        }
+
+        private void numericUpDown3_ValueChanged(object sender, EventArgs e)
+        {
+            HandleDensityChange(Convert.ToInt32(numericUpDown3.Value));
         }
 
         private void Form1_Load(object sender, EventArgs e)

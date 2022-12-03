@@ -40,23 +40,28 @@
             this.controllPointsShowHandlerButton = new System.Windows.Forms.Button();
             this.gridShowHandlerButton = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.label10 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             this.SuspendLayout();
             // 
             // coltrollPointsToDefaultButton
             // 
-            this.coltrollPointsToDefaultButton.Location = new System.Drawing.Point(12, 452);
+            this.coltrollPointsToDefaultButton.Location = new System.Drawing.Point(12, 465);
             this.coltrollPointsToDefaultButton.Name = "coltrollPointsToDefaultButton";
             this.coltrollPointsToDefaultButton.Size = new System.Drawing.Size(131, 23);
             this.coltrollPointsToDefaultButton.TabIndex = 0;
@@ -107,7 +112,7 @@
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Location = new System.Drawing.Point(12, 96);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(273, 129);
+            this.groupBox2.Size = new System.Drawing.Size(273, 107);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Kontrollpontok megadása";
@@ -178,7 +183,7 @@
             // 
             // controllPointsShowHandlerButton
             // 
-            this.controllPointsShowHandlerButton.Location = new System.Drawing.Point(149, 452);
+            this.controllPointsShowHandlerButton.Location = new System.Drawing.Point(149, 465);
             this.controllPointsShowHandlerButton.Name = "controllPointsShowHandlerButton";
             this.controllPointsShowHandlerButton.Size = new System.Drawing.Size(136, 23);
             this.controllPointsShowHandlerButton.TabIndex = 3;
@@ -188,7 +193,7 @@
             // 
             // gridShowHandlerButton
             // 
-            this.gridShowHandlerButton.Location = new System.Drawing.Point(149, 423);
+            this.gridShowHandlerButton.Location = new System.Drawing.Point(149, 436);
             this.gridShowHandlerButton.Name = "gridShowHandlerButton";
             this.gridShowHandlerButton.Size = new System.Drawing.Size(136, 23);
             this.gridShowHandlerButton.TabIndex = 4;
@@ -205,12 +210,21 @@
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Controls.Add(this.label3);
-            this.groupBox3.Location = new System.Drawing.Point(16, 247);
+            this.groupBox3.Location = new System.Drawing.Point(12, 279);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(269, 151);
+            this.groupBox3.Size = new System.Drawing.Size(273, 151);
             this.groupBox3.TabIndex = 5;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Funkciók";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(10, 19);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(184, 15);
+            this.label9.TabIndex = 6;
+            this.label9.Text = "- Bal egérgomb: pont kiválasztása";
             // 
             // label8
             // 
@@ -266,20 +280,55 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "- Jobbra-balra nyilakkal forgatás";
             // 
-            // label9
+            // groupBox4
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(10, 19);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(184, 15);
-            this.label9.TabIndex = 6;
-            this.label9.Text = "- Bal egérgomb: pont kiválasztása";
+            this.groupBox4.Controls.Add(this.numericUpDown3);
+            this.groupBox4.Controls.Add(this.label10);
+            this.groupBox4.Location = new System.Drawing.Point(12, 209);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(273, 64);
+            this.groupBox4.TabIndex = 6;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Felület sűrűségének megadása";
+            // 
+            // numericUpDown3
+            // 
+            this.numericUpDown3.Location = new System.Drawing.Point(142, 26);
+            this.numericUpDown3.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.numericUpDown3.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDown3.Name = "numericUpDown3";
+            this.numericUpDown3.Size = new System.Drawing.Size(120, 23);
+            this.numericUpDown3.TabIndex = 4;
+            this.numericUpDown3.Value = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.numericUpDown3.ValueChanged += new System.EventHandler(this.numericUpDown3_ValueChanged);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(14, 26);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(55, 15);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "Sűrűség: ";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(297, 487);
+            this.ClientSize = new System.Drawing.Size(297, 500);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.gridShowHandlerButton);
             this.Controls.Add(this.controllPointsShowHandlerButton);
@@ -297,6 +346,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -322,5 +374,8 @@
         private Label label5;
         private Label label4;
         private Label label9;
+        private GroupBox groupBox4;
+        private NumericUpDown numericUpDown3;
+        private Label label10;
     }
 }
